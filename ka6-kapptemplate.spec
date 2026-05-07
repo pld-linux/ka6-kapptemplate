@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.04.0
+%define		kdeappsver	26.04.1
 %define		qtver		6.8.0
 %define		kframever	6.13.0
 %define		kaname		kapptemplate
 Summary:	Kapptemplate
 Name:		ka6-%{kaname}
-Version:	26.04.0
-Release:	2
+Version:	26.04.1
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	3c384586c5a059ab5663e7ff739ddda3
+# Source0-md5:	c5a0654446e55c5e274b6450797ddd9b
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Qml-devel >= %{qtver}
