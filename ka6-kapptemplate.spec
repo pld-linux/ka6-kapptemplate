@@ -41,6 +41,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 How to create a new template.
 
+%description -l pl.UTF-8
+Jak utworzyć nowy szablon.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
